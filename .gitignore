@@ -3,6 +3,8 @@ node_modules/
 
 # VitePress specific
 .vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 .vitepress/dist/
 
 # Environment variables
