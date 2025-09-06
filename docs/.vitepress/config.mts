@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/dev-notes/',
   title: "Leo Dev Notes",
   description: "A VitePress Site",
   themeConfig: {
