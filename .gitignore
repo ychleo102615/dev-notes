@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# VitePress specific
+.vitepress/cache/
+.vitepress/dist/
+
+# Environment variables
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
