@@ -3,6 +3,9 @@
     "vitepress": "^2.0.0-alpha.12"
   },
   "scripts": {
+    "sync:notes": "rsync -av --delete \"$VAULT_NOTES/Main/9.\\ DevNotes/\"  ./docs/obs",
+    "sync:notes:back:dry": "rsync -av --delete --dry-run --exclude '.DS_Store' ./docs/obs \"$VAULT_NOTES/Main/9.\\ DevNotes/\"",
+    "sync:notes:back": "rsync -av --delete --exclude '.DS_Store' ./docs/obs \"$VAULT_NOTES/Main/9.\\ DevNotes/\"",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"

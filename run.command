@@ -1,1 +1,0 @@
-git subtree pull --prefix=docs/dev-notes/ https://github.com/ychleo102615/dev-notes-sub.git main --squash -m "subtree(dev-notes): sync from dev-notes-sub@main (squash)"
