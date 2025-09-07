@@ -1,10 +1,10 @@
 // .vitepress/theme/index.ts
 import DefaultTheme from 'vitepress/theme'
-import DocDate from './components/DocDate.vue' // ← 明確匯入
+import DocDate from './components/DocDate.vue'
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
-    app.component('DocDate', DocDate) // ← 全域註冊
+    app.component('DocDate', DocDate) 
   }
 }
