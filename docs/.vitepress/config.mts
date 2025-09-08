@@ -25,11 +25,13 @@ export default defineConfig({
           ]
         }
       ],
-      '/obs/': [
+      '/obs/2025': [
         {
-          text: 'Obsidian Notes',
+          text: '2025',
+          collapsed: false,
           items: [
-            { text: '2025', link: '/obs/2025' }
+            { text: '1. 決定我的開發筆記平台', link: '/obs/2025/1.%20決定我的開發筆記平台' },
+            { text: '2. 個人專案發想', link: '/obs/2025/2.%20個人專案發想' }
           ]
         }
       ]
@@ -37,7 +39,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ychleo102615' }
     ]
   }
 })
